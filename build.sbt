@@ -4,7 +4,7 @@ version       := "0.1.4-SNAPSHOT"
 licenses      := Seq("Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 homepage      := Some(url("http://github.com/lightbend/scala-sculpt"))
 
-scalaVersion  := crossScalaVersions.value.head
+scalaVersion  := crossScalaVersions.value.last
 crossScalaVersions := Seq("2.13.5", "2.12.13")
 
 libraryDependencies ++= Seq(
